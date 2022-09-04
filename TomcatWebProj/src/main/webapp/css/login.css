@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+#btn-color {
+	color: #fff;
+}
+
+.example {
+	width: 27%;
+	height: 3px;
+	background: -webkit-linear-gradient(top, #C1C1C1, #EDEDED);
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.modalBg {
+	background-color:#fff;
+	height:300px;
+  	box-shadow: 0 4px 20px 0 rgb(214 217 224 / 72%);
+	width:27%;
+}
+
+.modal {
+	transform: translateY(-50%);
+	border-radius: 6px;
+}
+
+.inputOuter {
+	padding: 0;
+	display: inline-block;
+	width: 74%;
+	text-align: start;
+	border-style: none;
+	border-bottom: 1px solid #e3e3e3;
+	display: flex;
+	align-items: center;
+}
+
+.inputIn, .inputOuter {
+	box-sizing: border-box;
+	margin: 0;
+	font-size: 14px;
+	font-variant: tabular-nums;
+	line-height: 3;
+	list-style: none;
+	font-feature-settings: "tnum";
+	position: relative;
+}
+
+.btn {
+	width: 37%;
+	line-height: 3;
+	position: relative;
+	display: inline-block;
+	background-color: #53d484;
+	border-radius: 22px;
+	opacity: .7;
+	box-shadow: 0 4px 10px 0 rgb(22 205 199/ 44%);
+	border-style: none;
+}
